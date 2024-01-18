@@ -1,0 +1,11 @@
+{
+    "package": {
+        "name": "drupal/starter-kit",
+        "version": "1.0.0",
+        "source": {
+          "url": "https://github.com/ciandt-taurus-platform/drupal-starter-kit.git",
+          "type": "git",
+          "reference": "main"
+        }
+    }
+}
