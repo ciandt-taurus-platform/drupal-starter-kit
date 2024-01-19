@@ -54,6 +54,9 @@ This simplifier includes the following modules by default, along with Drupal cor
 - reCAPTCHA
 - Devel (used as dev dependency)
 - Advanced CSS/JS Aggregation
+- Search API
+- Search API Solr
+- Search API Autocomplete
 
 ## Additional Recommended Modules
 

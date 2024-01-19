@@ -28,11 +28,13 @@
         "drupal/metatag": "^2.0",
         "drupal/recaptcha": "^3.2",
         "drupal/redirect": "^1.9",
+        "drupal/search_api": "^1.31",
+        "drupal/search_api_autocomplete": "^1.8",
+        "drupal/search_api_solr": "^4.2",
         "drupal/seckit": "^2.0",
         "drupal/shield": "^1.7",
         "drupal/simple_sitemap": "^4.1",
-        "drupal/social_media_links": "^2.9",
-        "drush/drush": "^12.4"
+        "drupal/social_media_links": "^2.9"
     },
     "suggest": {
         "drupal/yoast_seo": "This module helps you optimize your content for search engines in a fast and natural way.",
@@ -44,7 +46,8 @@
     },
     "require-dev": {
         "drupal/core-dev": "^10.0",
-        "drupal/devel": "^5.0"
+        "drupal/devel": "^5.0",
+        "drush/drush": "^12.4"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -84,12 +87,14 @@
             "post-create-project-cmd-message": [
                 "<bg=blue;fg=white>                                                         </>",
                 "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
-                "<bg=blue;fg=white>  from the drupal/recommended-project template!          </>",
+                "<bg=blue;fg=white>  from the drupal/starter kit template!          </>",
                 "<bg=blue;fg=white>                                                         </>",
                 "",
                 "<bg=yellow;fg=black>Next steps</>:",
 
-                "  * Install the site: https://www.drupal.org/docs/installing-drupal",
+                "  * We suggest you to install one of the following tools:",
+                "    - https://ddev.readthedocs.io/en/latest/users/quickstart/#drupal",
+                "    - https://docs.lando.dev/drupal/",
                 "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
                 "  * Get support: https://www.drupal.org/support",
                 "  * Get involved with the Drupal community:",
